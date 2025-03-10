@@ -3,31 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form-1</title>
+    <title>My Blog</title>
 </head>
 <body>
 
-<h2>A Simple Form</h2>
+<header><h1>My blog about my life</h1></header>
 
-<form autocomplete="on">
-    <fieldset>
-        <legend>Customer Info</legend>
-        <input type="text" name="name" placeholder="Name" autofocus required><br><br>
-        <input type="tel" name="phone" placeholder="Phone" pattern="[0-9]{10}" required><br><br>
-        <input type="email" name="email" placeholder="Email" multiple required><br><br>
-    </fieldset>
+<nav>
+    <h3>Menu</h3>
+    <a href="#">Today</a> | <a href="#">Yesterday</a>
+</nav>
 
-    <fieldset>
-        <legend>Books</legend>
-        <input list="books" name="book" placeholder="Select a book">
-        <datalist id="books">
-            <option value="Book A"><option value="Book B"><option value="Book C">
-        </datalist><br><br>
-        <input type="number" name="quantity" min="1" max="5" placeholder="Quantity (1-5)"><br><br>
-    </fieldset>
+<section>
+    <h2>Meeting with supervisor</h2>
+    <p><strong>14 Dec 2011</strong> - I m in college .</p>
 
-    <input type="submit" value="Submit">
-</form>
+    <h3>New car!!!</h3>
+    <p><strong>12 Dec 2011</strong> - i m out of station to visit my hometown.</p>
+
+    <h3>Visit my parents</h3>
+    <p><strong>10 Dec 2011</strong> - Visited my parents, had dinner together.</p>
+</section>
+
+<aside>
+    <h3>Last posts</h3>
+    <a href="#">Meeting with my friends</a><br>
+    <a href="#">New phone!!!</a><br>
+    <a href="#">Visit my releatives house</a>
+</aside>
+
+<footer>
+    Contact: <a href="mailto:email@1234@gmail.com">email@1234@gmail.com</a>
+</footer>
 
 </body>
 </html>
