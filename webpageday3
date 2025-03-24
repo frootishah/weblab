@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: left;
+            padding: 10px;
+        }
+
+        nav {
+            border: 2px solid red;
+            padding: 5px;
+        }
+
+        nav a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: blue;
+        }
+
+        main {
+            border-left: 2px solid green;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        h2 {
+            border: 2px solid red;
+            padding: 5px;
+            display: inline-block;
+        }
+
+        footer {
+            border-top: 2px solid red;
+            margin-top: 20px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK0SESHl6Ia6vgNcFncbukA4S1Ghz4J-5HGA&s">
+    <header>
+        <h1>Web Programming</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <h2>CSS Box Model</h2>
+        <p>
+            The CSS margin properties define the spacing between elements on a web page.
+            They are typically used to offset content to create an indented or centered effect.
+        </p>
+    </main>
+
+    <footer>
+        <p>Copyright info here</p>
+    </footer>
+</body>
+</html>
